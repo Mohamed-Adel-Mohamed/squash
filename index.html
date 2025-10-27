@@ -366,25 +366,18 @@
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
 
     <script>
+            // ========================================
+        // Firebase Configuration
         // ========================================
-        // PASTE YOUR FIREBASE CONFIG HERE
-        // ========================================
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "firebase/app";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
         const firebaseConfig = {
-        apiKey: "AIzaSyCq-p2MBwkpkMq9kPGjBO9SxOD6pxziw70",
-        authDomain: "squash-tournament-927da.firebaseapp.com",
-        projectId: "squash-tournament-927da",
-        storageBucket: "squash-tournament-927da.firebasestorage.app",
-        messagingSenderId: "203378531377",
-        appId: "1:203378531377:web:83e69652e01a742ae04910"
+            apiKey: "AIzaSyCq-p2MBwkpkMq9kPGjBO9SxOD6pxziw70",
+            authDomain: "squash-tournament-927da.firebaseapp.com",
+            projectId: "squash-tournament-927da",
+            storageBucket: "squash-tournament-927da.firebasestorage.app",
+            messagingSenderId: "203378531377",
+            appId: "1:203378531377:web:83e69652e01a742ae04910"
         };
 
-        
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         const db = firebase.firestore();
@@ -649,5 +642,4 @@
         init();
     </script>
 </body>
-
 </html>
